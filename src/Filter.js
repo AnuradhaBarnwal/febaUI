@@ -27,8 +27,12 @@ const Filter = () => {
 
     return (
         <div className={filterClasses.join(" ")}>
-            <span className="city"><button class="city">City : All</button></span>
-            <span className="category"></span>
+            <div class="filters">
+                <button class="citybtn"><label class="labelbtn">City : All</label></button>
+                <button class="categorybtn"><label class="labelbtn">Category: Bridal Makeup Artist</label></button>
+
+            </div>
+            <hr myclass ="my-4"></hr>
         </div>
     );
 }

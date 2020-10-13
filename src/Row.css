@@ -1,6 +1,24 @@
+.heading{
+    font-weight: medium;
+    color: rgb(70, 71, 71);
+    font-size: 22px;
+    padding: 20px 0px 10px 40px;
+}
+p{
+    padding: 0px 0px 25px 40px;
+}
 .row {
     width: 100%;
-    padding: 30px;
+    padding-left: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.row-sec{
+    padding-top: 3rem;
+    width: 100%;
+    /* padding: 30px; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -84,4 +102,28 @@
 .makeup-name {
     font-size: 13px;
     font-weight: light;
+}
+.pg{
+    width: 100%;
+    padding: 2rem 0 0 38rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+li{
+    padding: 20px;
+    font-size: 0.9rem;
+    list-style: none;
+}
+.pre-icon{
+    padding-top: 3px ;
+    height: 2rem;
+    width: 2rem;
+}
+.post-icon{
+    padding-top: 3px ;
+    height: 2rem;
+    width: 2rem;
+
 }
