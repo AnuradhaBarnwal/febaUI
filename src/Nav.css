@@ -2,11 +2,34 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 60px;
+    height: 65px;
     background: #fff;
+    padding: 20px;
+}
+
+.ham {
+    padding: 5px;
+    cursor: pointer;
 }
 
 .ham .hamIcon {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 55px;
+    height: 26px;
+}
+
+.logoText {
+
+    font-size: 28px;
+    font-weight: medium;
+    margin-left: 10px;
 }

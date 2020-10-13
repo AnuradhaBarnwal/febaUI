@@ -5,4 +5,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App {
+  height: 200vh;
+}
+
+.filter-bar {
+  margin-bottom: 65px;
 }

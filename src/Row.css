@@ -1,0 +1,87 @@
+.row {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-container {
+    position: relative;
+    width: 100%;
+    max-width: 348px;
+    height: 100%;
+    /* padding: 10px; */
+    margin-right: 15px;
+}
+
+.heart {
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 3%;
+    right: 3%;
+    height: 35px;
+    width: 35px;
+    background: #ddd;
+    border-radius: 50%;
+}
+
+.heart-icon {
+    height: 23px;
+}
+
+.card-img {
+    width: 100%;
+    position: relative;
+    max-width: 347px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.rating {
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.rating-icon {
+    height: 20px;
+}
+
+.tagName {
+    background: #be2364;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: medium;
+    color: #fff;
+}
+
+.place {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: medium;
+    color: #111;
+}
+
+.card-name {
+    /* padding-left: 10px; */
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.makeup-name {
+    font-size: 13px;
+    font-weight: light;
+}
