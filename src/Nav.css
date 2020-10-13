@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    background: #fff;
+}
+
+.ham .hamIcon {
+    width: 30px;
+    height: 30px;
+}
