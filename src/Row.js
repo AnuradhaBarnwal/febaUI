@@ -528,12 +528,12 @@ class Row extends Component {
 
                     </div>
                         <ul className="pg">
-                            <li><svg class="pre-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg></li>
+                            <li><svg className="pre-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg></li>
                             <li><a>1</a></li>
                             <li><a>2</a></li>
                             <li><a>3</a></li>
                             <li><a>4</a></li>
-                            <li><svg class="post-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></li>
+                            <li><svg className="post-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></li>
                         </ul>
                        
                 </div>  
