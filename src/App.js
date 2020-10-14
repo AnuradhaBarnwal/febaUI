@@ -11,6 +11,10 @@ function App() {
       <Nav />
       <Filter />
       <Row />
+      <div className="divider"></div>
+      <footer>
+        Copyright &copy House of Couton
+      </footer>
     </div>
   );
 }

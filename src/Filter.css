@@ -20,6 +20,7 @@
     height: 65px;
     background: #fff;
     padding: 20px;
+    border-bottom: 1px solid #ccc;
    
 }
 /* .filterbtn{
@@ -43,9 +44,7 @@ margin: 0;
     background-color: #fff;
 
 }
-hr{
-    height: 1px ;
-}
+
 /* .labelbtn{
     width: 100%;
     display: inherit;

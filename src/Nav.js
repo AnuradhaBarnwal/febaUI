@@ -15,6 +15,7 @@ class Nav extends Component {
                     <img src={logo} alt="feba-logo" />
                     <span className="logoText">Feba</span>
                 </div>
+              
             </div>
         );
     }
