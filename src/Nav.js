@@ -15,7 +15,6 @@ class Nav extends Component {
                     <img src={logo} alt="feba-logo" />
                     <span className="logoText">Feba</span>
                 </div>
-                <hr myclass ="my-4"></hr>
             </div>
         );
     }
