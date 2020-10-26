@@ -24,8 +24,8 @@ class Register extends Component {
     render() {
         return (
             <div className={regis.forms}>
-                <Button close onClick={this.props.click}/>
 
+                <Button close onClick={this.props.click}/>
                 <Form>
                     <FormText className={regis.head}>Please Register here First! </FormText>
                     <hr/>
