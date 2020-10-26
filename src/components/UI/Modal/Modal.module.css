@@ -1,0 +1,31 @@
+.Modal {
+    height: 30rem;
+    width: 30rem;
+    position: fixed;
+    z-index: 200;
+    background-color: white;
+    margin: 10px auto;
+    left: 33%;
+    top: 10rem;
+    border-radius: 5px;
+}
+@media ( max-width: 360px){
+    .Modal{
+        height: 30rem;
+        width: 20rem;
+        left: 5%;
+        
+    top: 8rem;
+       
+           }
+       }
+@media ( max-width: 600px) and ( min-width: 400px){
+    .Modal{
+       grid-template-columns: 45% 45% ;
+   }
+}
+@media ( min-width: 600px){
+    .Modal{
+       grid-template-columns: 24% 24% 24% 24% ;
+   }
+}

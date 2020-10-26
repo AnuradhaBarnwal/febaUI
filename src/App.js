@@ -5,12 +5,14 @@ import Nav from './Nav'
 import Sidebar from './Sidebar'
 import Filter from './Filter'
 
+
 function App() {
   return (
     <div className="App">
       <Nav />
       <Filter />
       <Row />
+      
       <div className="divider"></div>
       <footer>
         Copyright &copy House of Couton

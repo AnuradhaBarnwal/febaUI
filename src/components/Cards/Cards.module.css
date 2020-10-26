@@ -1,0 +1,30 @@
+.Cards {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: space-around;
+    margin-left: 1.5rem;
+}
+
+@media (max-width: 360px) {
+    .Cards {
+        grid-template-columns: 90%;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 400px) {
+    .Cards {
+        grid-template-columns: 45% 45%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .Cards {
+        grid-template-columns: 24% 24% 24% ;
+    }
+}
+
+@media (min-width: 900px) {
+    .Cards {
+        grid-template-columns: 24% 24% 24% 24%;
+    }
+}

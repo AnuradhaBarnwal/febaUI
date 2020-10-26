@@ -23,10 +23,7 @@
     border-bottom: 1px solid #ccc;
    
 }
-/* .filterbtn{
-margin: 0;
-    box-sizing: border-box;
-} */
+
 
 .citybtn{
     margin: 1.2rem;
@@ -45,12 +42,3 @@ margin: 0;
 
 }
 
-/* .labelbtn{
-    width: 100%;
-    display: inherit;
-    align-items: inherit;
-    justify-content: inherit;
-   
-    
-
-} */
