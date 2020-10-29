@@ -139,3 +139,28 @@ ul li a {
     width: 2rem;
 
 }
+
+.message-box {
+    width: 400px;
+    margin: auto;
+    padding: 20% 0% 15% 9%;
+    color: #be2364;
+}
+
+.message-box button {
+   color: #f3e8ed;
+   margin-top: 3%;
+   margin-left: 2%;
+}
+
+@media (max-width: 360px) {
+    .message-box h1 {
+        font-size: 20px;
+        width: 250px;
+        padding-bottom: 10px;
+    }
+
+    .message-box button {
+        font-size: 10px;
+    }
+}

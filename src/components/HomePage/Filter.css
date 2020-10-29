@@ -13,7 +13,7 @@
     margin-bottom: 65px;
 }
 
-.filters{
+.filters {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -21,11 +21,11 @@
     background: #fff;
     padding: 20px;
     border-bottom: 1px solid #ccc;
-   
+
 }
 
 
-.citybtn{
+.citybtn {
     margin: 1.2rem;
     width: 85px;
     height: 40px;
@@ -33,7 +33,12 @@
     border-radius: 20px;
     background-color: #fff;
 }
-.categorybtn{
+.citybtn:focus {
+    outline: none;
+}
+
+
+.categorybtn {
     width: 17rem;
     height: 40px;
     font-size: 14px;
@@ -42,3 +47,6 @@
 
 }
 
+.categorybtn:focus {
+    outline: none;
+}

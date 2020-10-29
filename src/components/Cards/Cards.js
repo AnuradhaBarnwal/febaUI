@@ -106,8 +106,9 @@ const Cards = (props) => {
         cardArray.push(cardDetails[card]);
     }
 
-    let card = cardArray.map(card => (
+    let card = cardArray.map((card,index) => (
         <Card
+            key={index}
             imgLoc={card.imgLoc}
             imgAlt={card.imgAlt}
             vendor={card.vendor}

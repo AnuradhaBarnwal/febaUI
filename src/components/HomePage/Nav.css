@@ -6,6 +6,7 @@
     height: 65px;
     background: #fff;
     padding: 20px;
+    padding-top: 8px;
 }
 
 .ham {
@@ -25,7 +26,8 @@
 
 .logo img {
     width: 55px;
-    height: 26px;
+    height: 36px;
+    padding-bottom: 10px;
 }
 
 .logoText {
@@ -34,7 +36,4 @@
     font-weight: medium;
     margin-left: 10px;
 }
-/* hr{
-    height: 2px ;   
-} */
 

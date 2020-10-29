@@ -1,21 +1,70 @@
-
-.forms{
-    padding: 0.9rem;
+.forms {
+    padding: 15px 25px 10px;
 }
 
-.head{
-    background: -webkit-linear-gradient(45deg,#d33965, #e99c29 );
+.head {
+    background: -webkit-linear-gradient(45deg, #d33965, #e99c29);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     margin-top: 1rem;
-    font-size: 2rem;    
+    font-size: 2rem;
     font-weight: 600;
 }
 
 
-.submit{
-    padding-top: 1rem ;
+.submit {
+    padding-top: 1rem;
     padding-left: 40%;
 }
 
+@media (max-width: 360px) {
+    .forms {
+        padding: 0px 10px 10px;  
+    }    
+    .close{
+        margin-top: 0;
+        line-height: 0;
+    }
+    .head {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .submit {
+        padding: 3px 20px 3px 70px;
+    }
 
+}
+@media (min-width: 640px) and (max-width: 768px){
+    .forms {
+        padding: 0px 10px 10px;  
+    }    
+    .head {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .close{
+        margin-top: 0;
+        line-height: 0;
+    }
+}
+@media (max-width: 600px) and (min-width: 400px) {
+    .forms {
+        padding: 0px 15px 15px;  
+    }    
+    .head {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .submit {
+        padding: 0px 20px 3px 95px;
+    }
+    .close{
+        margin-top: 0;
+        line-height: 0;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 900px) {}
+
+@media (min-width: 900px) {}

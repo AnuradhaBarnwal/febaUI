@@ -1,11 +1,9 @@
 .CardContainer {
-   
+
     position: relative;
     width: 100%;
     max-width: 348px;
     height: 100%;
-    /* padding: 10px; */
-    /* margin-right: 15px; */
     margin-bottom: 20px;
 }
 
@@ -36,16 +34,19 @@
     padding-bottom: 10px;
     border-radius: 10px;
 }
-.submit{
-    position: absolute;
-    z-index: 20;
 
-    top: 50%;
-    left: 13%;
+.submit {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    z-index: 1;
+    width: 60%;
 }
-.appoint{
-    width: 15em;
+
+.appoint {
+    width: 100%;
 }
+
 .CardImg img {
     width: 100%;
     height: 100%;
@@ -71,15 +72,15 @@
     color: #fff;
 }
 
-.Place {
-    margin-left: 10px;
-    font-size: 14px;
+.Places {
+    margin-left: 12px;
+    font-size: 18px;
     font-weight: medium;
     color: #111;
 }
 
 .CardName {
-    /* padding-left: 10px; */
+   
     padding: 10px 0px;
     font-size: 20px;
 }
@@ -88,3 +89,29 @@
     font-size: 13px;
     font-weight: light;
 }
+
+@media (max-width: 280px) {
+    .appoint {
+        font-size: 12px;
+    height: fit-content;
+    padding: 0;
+    }
+}
+
+@media (min-width: 422px) and (max-width: 628px) {
+    .appoint {
+        font-size: 12px;
+    height: fit-content;
+    padding: 0;
+    
+    }
+}
+@media (min-width: 769px) and (max-width: 1200px)  {
+    .appoint {
+    font-size: 13px;
+    height: fit-content;
+    padding: 0;
+    }
+}
+
+@media (min-width: 600px) {}

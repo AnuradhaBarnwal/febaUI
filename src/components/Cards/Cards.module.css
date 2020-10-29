@@ -5,26 +5,27 @@
     margin-left: 1.5rem;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 421px) {
     .Cards {
         grid-template-columns: 90%;
+        margin-left: 0rem;
+        gap: 15px;
     }
 }
 
-@media (max-width: 600px) and (min-width: 400px) {
+@media (min-width: 422px) and (max-width: 796px) {
     .Cards {
         grid-template-columns: 45% 45%;
+        margin-left: 0rem;
     }
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
+
+@media (min-width: 797px) and (max-width: 1200px)  {
     .Cards {
+        margin-left: 0rem;
+        padding: 0;
         grid-template-columns: 24% 24% 24% ;
-    }
-}
-
-@media (min-width: 900px) {
-    .Cards {
-        grid-template-columns: 24% 24% 24% 24%;
+        justify-content: space-evenly;
     }
 }

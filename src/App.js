@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Row from './Row'
-import Nav from './Nav'
+import Row from './components/HomePage/Row'
+import Nav from './components/HomePage/Nav'
 import Sidebar from './Sidebar'
-import Filter from './Filter'
+import Filter from './components/HomePage/Filter'
 
 
 function App() {
